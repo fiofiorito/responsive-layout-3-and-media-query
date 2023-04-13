@@ -200,6 +200,7 @@ header {
         justify-content: center;
         margin: 0 auto;
         width: 65%;
+       font-size: 1.15rem;
     }
 
     .section-2-col, .col-colored {
