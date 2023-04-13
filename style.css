@@ -172,6 +172,37 @@ header {
     margin-left: 30px;
 }
 
+/* media query for medium screens - aka tablet */
+@media (max-width: 900px) {
+    /* .row {
+        display: block;
+    } */
+
+    .hero__text, .hero__img {
+        width: 50%;
+    } 
+
+    .hero-desktop-phone {
+        display: none;
+    }
+
+    .only-for-ipad {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .section-2-col, .col-colored {
+        width: 100%;
+    }
+    
+    .section-2-col {
+        margin-right: 1em;
+    }
+
+}
+
+/* media query for small screens - aka phones */
 @media (max-width: 600px) {
     .row {
         display: block;
